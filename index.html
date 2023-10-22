@@ -9,9 +9,62 @@
     <title>الإنطلاق قريبا</title>
 </head>
 <body>
-    
+    <header class="text-center">
+        <div class="brand">
+            <div class="logo">
+                <img src="images/logo1.png" alt="logo">
+            </div>
+            <div class="slogo">
+                <img src="images/logo2.png" alt="slogo">
+            </div>
+        </div>
+        <div class="heading-page">
+            <h1>أنتظرونا قريبا</h1>
+            <p>موعد إنطلاق منتجنا على الأبواب, أنتظرونا بكل حماس</p>
+        </div>
+        <div class="count-down">
+            <div class="counter">
+                <div class="count-amount" id="months"></div>
+                <div class="count-period">أشهر</div>
+            </div>
+            <div class="counter">
+                <div class="count-amount" id="days"></div>
+                <div class="count-period">أيام</div>
+            </div>
+            <div class="counter">
+                <div class="count-amount" id="hours"></div>
+                <div class="count-period">ساعات</div>
+            </div>
+            <div class="counter">
+                <div class="count-amount" id="minutes"></div>
+                <div class="count-period">دقائق</div>
+            </div>
+            <div class="counter">
+                <div class="count-amount" id="seconds"></div>
+                <div class="count-period">ثواني</div>
+            </div>
+        </div>
+        <div class="send-notification">
+            <p>هل تريد إرسال إشعار فور الإنطلاق؟</p>
+            <form class="needs-validation" novalidate>
+                <div class="input-group">
+                    <input type="email" class="form-control" placeholder="البريد الإلكتروني" required>
+                    <button type="submit" class="btn"><img src="images/send1.png" alt=""></button>    
+                    <div class="invalid-feedback">
+                        عذرا يرجى إدخال البريد الإلكتروني.
+                      </div>
+                </div>
+            </form>
+        </div>
+    </header>
+    <main>
 
+    </main>
+    <footer>
+
+    </footer>
 
     <script src="asset/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
