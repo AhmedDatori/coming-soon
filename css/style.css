@@ -146,3 +146,60 @@ footer .input-group button{
     border-radius: 0;
     padding: 1rem 1.8rem;
 }
+footer .social-media{
+    background-color: rgba(57, 57, 57, 0.9);
+    padding: 10rem 0 3rem;
+}
+footer .social-media h3{
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 2.5rem;
+}
+footer .social-media .list-inline a{
+    width: 6rem;
+    height: 6rem;
+    line-height: 6rem;
+    font-size: 2rem;
+    background-color: rgba(255, 255, 255, 0.14);
+    color: #fff;
+    display: block;
+    transition: .5s;
+}
+footer .social-media .list-inline a:hover{
+    background-color: #fad32f;
+    color: rgba(57, 57, 57, 0.9);
+}
+footer .social-media hr{
+    width: 25%;
+    margin: 5rem auto 3rem;
+}
+footer .social-media a.email{
+    color: #b4b4b4;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+footer .social-media a.email i{
+    color: #ffce00;
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+}
+
+@media(max-width: 992px){
+    header .heading-page p{
+        width: 70%;
+    }
+    .input-group {
+        width: 50% !important;
+    }
+}
+@media(max-width: 650px){
+    header .heading-page p{
+        width: 85%;
+    }
+    .input-group {
+        width: 70% !important;
+    }
+    html{
+        font-size: 50%;
+    }
+}
