@@ -115,3 +115,34 @@ section.features .row .d-flex p{
 section.features .row .col-md-6:nth-child(even){
     direction: ltr;
 }
+footer{
+    background-image: url(../images/footer-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+}
+footer .footer-notification{
+    background-color: rgba(255, 206, 0, 0.7);
+    padding: 6rem 0;
+}
+footer .footer-notification h3{
+    font-size: 2.3rem;
+    margin-bottom: 3rem;
+}
+footer .input-group{
+    width: 30%;
+    margin: auto;
+}
+footer .input-group input{
+    border-radius: 0;
+    font-size: 1.5rem;
+    color: #c7c7c7;
+    border-color: #fff;
+    text-align: right;
+}
+footer .input-group button{
+    background-color: #393939;
+    border-radius: 0;
+    padding: 1rem 1.8rem;
+}
